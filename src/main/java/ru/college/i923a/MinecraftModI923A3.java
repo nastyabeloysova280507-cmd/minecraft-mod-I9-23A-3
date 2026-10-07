@@ -20,8 +20,9 @@ public class MinecraftModI923A3 implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		LOGGER.info("Проект загружен успешно");
 		LOGGER.info("Hello Fabric world!");
+
 	}
 
 	public static Identifier id(String path) {
