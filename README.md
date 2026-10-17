@@ -1,9 +1,15 @@
-# Project_Mod2
+# Команда 3
 
-## Setup
+## Описание:
+Участники: Настя Белоусова, Мира Маслова.
+Цель проекта: Создание учебного модификатора "Вила" для игры Майнкрафт на Java
+с использованием командной разработки в Git.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+- Тип предмате: инструмент
+- Пространство имен: project_mod2
+- Полный идентификатор: project_mod2:pitchfork 
 
-## License
+## Структура проекта:
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- src/main/java - исходный код мода на Java. Создержит пакет com.mincraft_mod_i9_23a с классом точки входа.
+- src/main/resources - ресурсы мода: fabric.mod.json (идентификатор проекта, точка входа, зависимости).
